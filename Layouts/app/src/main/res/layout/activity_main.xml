@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingTop="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:layout_height="match_parent"
+    tools:context="marcosilv7.com.layouts.MainActivity">
+
+
+    <TextView
+        android:id="@+id/citaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="Esto sera una cita"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/autorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="0dp"
+        android:fontFamily="sans-serif"
+        android:text="Autor"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintRight_toRightOf="@+id/citaTextView"
+        app:layout_constraintTop_toBottomOf="@+id/citaTextView" />
+
+    <Button
+        android:id="@+id/nuevaCitaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:fontFamily="sans-serif"
+        android:onClick="nuevaCita"
+        android:text="Nueva Cita"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>
