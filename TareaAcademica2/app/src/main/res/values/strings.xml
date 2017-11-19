@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TareaAcademica2</string>
+    <string name="lorem_ipsum_es_simplemente_el_texto_de_relleno_de_las_imprentas_y_archivos_de_texto_lorem_ipsum_ha_sido_el_texto_de_relleno_est_ndar_de_las_industrias_desde_el_a_o_1500_cuando_un_impresor_n_del_t_persona_que_se_dedica_a_la_imprenta_desconocido_us_una_galer_a_de_textos_y_los_mezcl_de_tal_manera_que_logr_hacer_un_libro_de_textos_especimen">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</string>
+    <string name="about_me">About Me</string>
+    <string name="services">Services</string>
+    <string name="about_me_main">About Me</string>
+    <string name="title_activity_services">ServicesActivity</string>
+    <string name="bienvenido">Bienvenido!</string>
+</resources>
