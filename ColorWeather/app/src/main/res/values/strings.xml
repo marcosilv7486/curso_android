@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Color Weather</string>
     <string name="hourly_forecast">Hourly Forecast</string>
-    <string name="party_cloudy">Party Cloudy</string>
+    <string name="party_cloudy">--</string>
     <string name="minutely">MINUTELY</string>
     <string name="hourly">HOURLY</string>
     <string name="daily">DAILY</string>

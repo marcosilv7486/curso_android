@@ -18,8 +18,10 @@
         android:textStyle="bold"
         android:text="@string/hourly_forecast" />
 
-    <ListView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/hourlyReciclerView"
         android:layout_width="match_parent"
+        android:padding="5dp"
         android:layout_height="match_parent"
         android:layout_below="@+id/hourlyWeatherForecastTextView"
         android:layout_centerHorizontal="true" />

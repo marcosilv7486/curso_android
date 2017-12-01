@@ -7,6 +7,7 @@
     android:background="@drawable/bg_gradient_blue"
     tools:context="marcosilv7.com.colorweather.DailyWeatherActivity">
 
+
     <TextView
         android:id="@+id/titleWeatherDailyTextView"
         android:layout_width="wrap_content"
@@ -18,10 +19,21 @@
         style="@style/mainFont"
         android:text="@string/daily_forecast" />
 
-    <ListView
-        android:id="@android:id/list"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/dailyRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/titleWeatherDailyTextView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:padding="5dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/noDataWeatherDailyTextView"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        style="@style/mainFont"
+        android:text="No data to display" />
 </RelativeLayout>
